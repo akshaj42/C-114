@@ -1,0 +1,22 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: Doraemon;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-top: 20px;
+}
+
+@keyframes Doraemon{
+    0%{box-shadow: 1px 1px 38px green;}
+    25%{box-shadow: 1px 1px 38px blue;}
+    50%{box-shadow: 1px 1px 38px gold;}
+    75%{box-shadow: 1px 1px 38px red;}
+    100%{box-shadow: 1px 1px 38px purple}
+}
